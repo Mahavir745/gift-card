@@ -22,8 +22,25 @@ const InputField = () => {
     namesElement.current.value = "";
     eventElement.current.value = " ";
 
-    addInputData(quantity,names,event.toLowerCase())
-    navigate("/cards")
+    let count = 0
+
+    if(quantity !== ""){
+      count+=1
+    }
+
+    if(names != ""){
+      count+=1
+    }
+
+    if(count === 2){
+      addInputData(quantity,names,event.toLowerCase())
+      navigate("/cards")
+    }
+    else{
+      count = 0
+      alert("* mandatory should be value")
+    }
+
   }
   return (
     <div className='w-[100%] h-[500px] flex items-center'>
