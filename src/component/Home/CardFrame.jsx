@@ -23,7 +23,7 @@ const CardFrame = ({ item, name, heading, image }) => {
     <div className='flex justify-between'>
       <div
         ref={cardRef}
-        className='w-[375px] sm:w-[400px] h-[500px] border shadow-lg m-4 rounded-lg p-2 flex flex-col justify-evenly bg-white'
+        className='w-[400px] sm:w-[400px] h-[500px] border shadow-lg m-4 rounded-lg p-2 flex flex-col justify-evenly bg-white'
       >
         <h1 className='text-5xl fontfamily'>{heading}</h1>
         <img src={image} alt="" className='w-[100%] h-[200px]' />
