@@ -28,6 +28,20 @@ import love_14 from "../../assest/love_14.jpg"
 import love_15 from "../../assest/love_15.jpg"
 import love_16 from "../../assest/love_16.jpg"
 
+// todo: care section:
+
+import care_01 from "../../assest/care_01.avif"
+import care_02 from "../../assest/care_02.webp"
+import care_03 from "../../assest/care_03.jpeg"
+import care_04 from "../../assest/care_04.avif"
+import care_05 from "../../assest/care_05.jpg"
+import care_06 from "../../assest/care_06.jpg"
+import care_07 from "../../assest/care_07.avif"
+import care_08 from "../../assest/care_08.jpg"
+import care_09 from "../../assest/care_09.jpeg"
+import care_10 from "../../assest/care_10.webp"
+
+
 // todo: miss you section
 import missyou_01 from "../../assest/missyou_01.jpg"
 import missyou_02 from "../../assest/missyou_02.jpg"
@@ -73,8 +87,8 @@ import saraswati_puja_05 from "../../assest/saraswati_puja_05.jpg"
 
 const Quotes = [
   {
-    id:"D100",
-    heading:"diwali",
+    id: "D100",
+    heading: "diwali",
     quotes: [
       "May the light of Diwali brighten your life and bring endless joy.",
       "Wishing you a Diwali filled with love, laughter, and prosperity.",
@@ -97,7 +111,7 @@ const Quotes = [
       "Wishing you a Diwali full of sweet memories and cherished traditions.",
       "May the glow of the diyas and the echoes of the mantras bring peace to your soul."
     ],
-    images:[
+    images: [
       diwali_01,
       diwali_02,
       diwali_03,
@@ -107,8 +121,43 @@ const Quotes = [
     ]
   },
   {
-    id:"SWP100",
-    heading:"saraswati",
+    id: "M100",
+    heading: "miss",
+    quotes: [
+      "I miss you more than words can say, and I can’t wait until we’re together again.",
+      "The distance between us only makes my heart grow fonder. I miss you deeply.",
+      "Every moment without you feels incomplete. I can't wait to be by your side again.",
+      "Your absence leaves a void in my life, and I miss you more with each passing day.",
+      "I miss your smile, your laughter, and the way you make everything feel right.",
+      "Though we’re apart, you’re always in my heart, and I miss you endlessly.",
+      "Life isn’t the same without you, and I miss you more than you could ever know.",
+      "I miss your presence, your voice, and everything that makes you, you.",
+      "The time spent apart only makes me realize how much I truly need you in my life.",
+      "Every day feels incomplete without you here beside me. I miss you.",
+      "I carry the memory of you in my heart every day. Missing you more than words can describe.",
+      "When we’re apart, I find myself missing even the little things about you.",
+      "Not a day goes by that I don’t wish you were here with me. I miss you deeply.",
+      "The silence in my life feels louder without you by my side.",
+      "I can’t stop thinking about you and how much I miss being with you.",
+      "No matter how far apart we are, my love for you grows stronger each day.",
+      "I miss everything about you—your warmth, your kindness, your laugh, and your love.",
+      "Each moment without you feels like an eternity. I miss you more than you know.",
+      "I miss the moments we’ve shared and long for the ones we will create together again.",
+      "Though we’re apart, my love for you remains strong, and I miss you every single day."
+    ],
+    images: [
+      missyou_01,
+      missyou_02,
+      missyou_03,
+      missyou_04,
+      missyou_05,
+      missyou_06,
+      missyou_07,
+    ]
+  },
+  {
+    id: "SWP100",
+    heading: "saraswati",
     quotes: [
       "May Goddess Saraswati bless you with knowledge, wisdom, and creativity.",
       "On this Saraswati Puja, may your life be filled with the light of wisdom.",
@@ -306,6 +355,26 @@ const Quotes = [
       "Believe in the magic of new beginnings and watch your dreams take flight.",
       "Success isn’t just about reaching goals; it’s about enjoying the journey along the way.",
       "Love yourself first, and the world will follow your example.",
+      "Respect is not something that is demanded from others; it’s something that is earned through actions.",
+      "True respect comes from understanding others, not judging them.",
+      "Respect is the foundation of every meaningful relationship I build and others build.",
+      "I respect myself, and in turn, others will respect me.",
+      "When I show respect to others, I reflect my own greatness.",
+      "The highest form of respect I can show is by listening with an open heart and mind.",
+      "Respect isn’t just about honoring others; it’s about honoring myself too.",
+      "True respect for others is about valuing them for who they are, not what they can do.",
+      "Respect is earned, not given. It’s built through my actions and integrity.",
+      "Respect for others is a reflection of the respect I have for myself.",
+      "When I treat others with respect, respect will come back to me tenfold.",
+      "Respect is the most important thing in life for me—when I give it freely, it comes back.",
+      "In every relationship, respect is the key ingredient for lasting happiness for me and others.",
+      "Respect is the silent form of love. It shows how much I truly care for others.",
+      "To respect someone is to recognize their worth, regardless of differences.",
+      "I respect the differences in others, knowing that it makes the world a more peaceful place.",
+      "Respect is the glue that holds my relationships together through both good times and bad.",
+      "Everyone deserves respect, regardless of their position or status in life.",
+      "True respect allows others to be themselves without judgment or expectation from me.",
+      "Respect is not just about what I say—it’s about what I do and how I make others feel.",
       "True connections are built on mutual respect, trust, and genuine care.",
       "The universe rewards those who dare to dream and take bold steps forward.",
       "Friendships are the anchors that keep us steady during life’s storms.",
@@ -340,6 +409,16 @@ const Quotes = [
       thankyou_08,
       thankyou_09,
       thankyou_10,
+      care_01,
+      care_02,
+      care_03,
+      care_04,
+      care_05,
+      care_06,
+      care_07,
+      care_08,
+      care_09,
+      care_10,
       diwali_01,
       diwali_03,
       diwali_04,
