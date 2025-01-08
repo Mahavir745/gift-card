@@ -13,11 +13,11 @@ const Container = () => {
   const namestr = name.split(",")
 
   let heading;
-  if (InputData.event === "" || InputData.event === "mixed") {
+  if (InputData.event === "" || InputData.event === "mixed" || InputData.event === undefined) {
     heading = "For You"
   }
   else {
-    heading = InputData.event 
+    heading = InputData.event
   }
 
 
@@ -26,7 +26,7 @@ const Container = () => {
       if (!(InputData.event.includes(item.heading))) {
         return item.heading === "mixed"
       }
-      else if(InputData.event.includes(item.heading)){
+      else if (InputData.event.includes(item.heading)) {
         return item
       }
     })
@@ -40,8 +40,9 @@ const Container = () => {
 
     for (let i = 0; i < quantity; i++) {
       let random = Math.floor(Math.random() * newdata.length)
+      let randomImg = Math.floor(Math.random() * ImageArray.length)
       const quote = newdata[random]
-      const image = ImageArray[random];
+      const image = ImageArray[randomImg];
 
       newArray.push(quote)
       newImageArray.push(image)
@@ -55,12 +56,12 @@ const Container = () => {
 
   return (
     <div className='w-[100%] p-2 flex justify-center flex-wrap gap-3'>
-      {card.map((item, index) => <CardFrame 
-      key={index}
-      item={item}
-      name={namestr[index]}
-      heading={heading}
-      image={newImageData[index]} />)}
+      {card.map((item, index) => <CardFrame
+        key={index}
+        item={item}
+        name={namestr[index]}
+        heading={heading}
+        image={newImageData[index]} />)}
     </div>
   )
 }

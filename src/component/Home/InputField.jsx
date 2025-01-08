@@ -52,7 +52,8 @@ const InputField = () => {
           </div>
           <div className='border border-white w-auto h-[100px] p-3 flex-grow'>
             <label htmlFor="name" className='block text-pink-600 mb-2'>Card Name:</label>
-            <input type="text" placeholder="Eg: Christmas,Birthday etc." ref={eventElement} className='border rounded-md w-[100%] p-2 text-gray-600 focus:outline-pink-300 text-[14px]' />
+            <input type="text" placeholder="Eg: love,Birthday etc." ref={eventElement} className='border rounded-md w-[100%] p-2 text-gray-600 focus:outline-pink-300 text-[14px]' />
+            <span className='text-[11px] text-pink-600'>Eg: love,Birthday etc."</span>
           </div>
         </div>
         <div className='border border-white w-auto h-[100px] p-3'>
